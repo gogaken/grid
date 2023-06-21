@@ -1,9 +1,11 @@
-grid-container {
+.grid-container {
   display: grid;
+  gap: 20px;
   grid-template-columns: auto auto auto;
   background-color: #2196F3;
   padding: 10px;
 }
+
 .grid-item {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
@@ -11,7 +13,9 @@ grid-container {
   font-size: 30px;
   text-align: center;
 }
-p{
-  background-color: black;
-  margin-top: 411px;
+html{
+  background-color: blue;
+}
+h1{
+  color: white;
 }
